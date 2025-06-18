@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Ti, Fabiana</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #f8cdda, #1d2b64);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    button {
+      margin-top: 40px;
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #ffffff;
+      color: #1d2b64;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fabiana 🌹</h1>
+  <p>
+    No sé si estas palabras alcancen para decirte todo lo que siento,<br>
+    pero cada nota de esta canción habla por mí.<br><br>
+    Esta no es solo una página web... es mi forma de decirte que<br>
+    me importas más de lo que imaginas. 💖<br><br>
+    Espero que esta melodía llegue a tu corazón.
+  </p>
+
+  <!-- Botón para reproducir la música -->
+  <button onclick="document.getElementById('musica').play()">Haz clic para escuchar la canción 🎶</button>
+
+  <!-- Música de fondo (inicia cuando se hace clic) -->
+  <audio id="musica" loop>
+    <source src="yellow.mp3.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML.
+  </audio>
+</body>
+</html>
